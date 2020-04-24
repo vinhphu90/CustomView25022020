@@ -59,4 +59,15 @@ public class EdittextcircleIcon extends RelativeLayout {
         mTvTitle.setText(mTextTitle);
         mImgIcon.setImageResource(mRedId);
     }
+    public void setOnClickTitle(final OnClistener onClickTitle){
+        mTvTitle.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onClickTitle.onClick();
+            }
+        });
+    }
+    interface OnClistener{
+        void onClick();
+    }
 }
