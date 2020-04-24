@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="EdittextcircleIcon">
+    <declare-styleable name="EdittextcircleIcon"
+        >
         <attr name="title" format="string"/>
-        <attr name="icon" format="reference"/>
+        <attr name="icon_left" format="reference"/>
     </declare-styleable>
     
 </resources>
